@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+<meta name="theme-color" content="#0a0612" />
+
+<!-- Primary Meta Tags -->
+<title>Abdulhay & Durdonaxon — To'y Taklifnomasi</title>
+<meta name="title" content="Abdulhay & Durdonaxon — To'y Taklifnomasi" />
+<meta name="description" content="Sizni Abdulhay va Durdonaxonning to'y marosimiga taklif etamiz! 2026-yil 11-iyul, soat 19:00 da «Baxtsaroy» to'yxonasi." />
+<meta name="author" content="Abdulhay & Durdonaxon" />
+
+<!-- Open Graph / Facebook / Telegram / WhatsApp -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="./" />
+<meta property="og:title" content="💍 Abdulhay & Durdonaxon — To'y Taklifnomasi" />
+<meta property="og:description" content="11-iyul, 2026 — 19:00 da «Baxtsaroy» to'yxonasida sizni kutamiz!" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=630&fit=crop" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="uz_UZ" />
+<meta property="og:site_name" content="Abdulhay & Durdonaxon To'y" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="./" />
+<meta name="twitter:title" content="💍 Abdulhay & Durdonaxon — To'y Taklifnomasi" />
+<meta name="twitter:description" content="11-iyul, 2026 — 19:00 da «Baxtsaroy» to'yxonasida sizni kutamiz!" />
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=630&fit=crop" />
+
+<!-- WhatsApp specific -->
+<meta property="og:image:type" content="image/jpeg" />
+
+<!-- Favicon (gold ring emoji as SVG) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💍</text></svg>" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Great+Vibes&family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  :root{
+    --gold-1:#f7e7a1;
+    --gold-2:#e8c770;
+    --gold-3:#c9a24a;
+    --gold-4:#8a6a24;
+    --bg-1:#0a0612;
+    --bg-2:#140a22;
+    --bg-3:#1d1030;
+    --text:#f5ecd7;
+    --muted:#b9a98a;
+    --glass:rgba(255,255,255,0.04);
+    --glass-border:rgba(232,199,112,0.25);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Cormorant Garamond', serif;
+    background:var(--bg-1);
+    color:var(--text);
+    min-height:100vh;
+    overflow-x:hidden;
+    line-height:1.6;
+    position:relative;
+  }
+
+  /* Animated background */
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+      radial-gradient(ellipse at 20% 10%, rgba(201,162,74,0.18), transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(138,106,36,0.15), transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(29,16,48,0.8), transparent 70%),
+      linear-gradient(180deg, var(--bg-1), var(--bg-2) 50%, var(--bg-1));
+    z-index:-2;
+  }
+
+  /* Floating gold particles */
+  .particles{
+    position:fixed;
+    inset:0;
+    z-index:-1;
+    pointer-events:none;
+    overflow:hidden;
+  }
+  .particle{
+    position:absolute;
+    width:4px;height:4px;
+    background:var(--gold-2);
+    border-radius:50%;
+    box-shadow:0 0 8px var(--gold-2), 0 0 16px var(--gold-3);
+    animation:float linear infinite;
+    opacity:0;
+  }
+  @keyframes float{
+    0%{transform:translateY(110vh) translateX(0) scale(0.5);opacity:0}
+    10%{opacity:0.9}
+    90%{opacity:0.9}
+    100%{transform:translateY(-10vh) translateX(40px) scale(1);opacity:0}
+  }
+
+  /* Container */
+  .wrap{
+    max-width:720px;
+    margin:0 auto;
+    padding:24px 20px 80px;
+    position:relative;
+  }
+
+  /* Top ornament */
+  .ornament{
+    text-align:center;
+    color:var(--gold-2);
+    font-size:28px;
+    letter-spacing:12px;
+    margin:30px 0 10px;
+    opacity:0.8;
+    animation:fadeIn 1.5s ease both;
+  }
+
+  /* Hero */
+  .hero{
+    text-align:center;
+    padding:40px 10px 30px;
+    animation:fadeInUp 1.2s ease both;
+  }
+  .hero .label{
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    color:var(--gold-2);
+    margin-bottom:20px;
+    opacity:0.9;
+  }
+  .hero .invite{
+    font-size:18px;
+    color:var(--muted);
+    font-style:italic;
+    margin-bottom:24px;
+    font-weight:400;
+  }
+  .names{
+    font-family:'Great Vibes', cursive;
+    font-size:clamp(48px, 11vw, 88px);
+    line-height:1.1;
+    background:linear-gradient(135deg, var(--gold-1) 0%, var(--gold-3) 40%, var(--gold-1) 60%, var(--gold-4) 100%);
+    background-size:200% 200%;
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation:shimmer 4s ease-in-out infinite;
+    filter:drop-shadow(0 2px 20px rgba(232,199,112,0.3));
+    margin:10px 0;
+  }
+  .names .amp{
+    display:block;
+    font-size:0.55em;
+    color:var(--gold-2);
+    -webkit-text-fill-color:var(--gold-2);
+    margin:6px 0;
+    opacity:0.9;
+  }
+  @keyframes shimmer{
+    0%,100%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+  }
+
+  .divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    margin:28px auto;
+    color:var(--gold-2);
+  }
+  .divider .line{
+    height:1px;
+    width:80px;
+    background:linear-gradient(90deg, transparent, var(--gold-3), transparent);
+  }
+  .divider .diamond{
+    width:8px;height:8px;
+    background:var(--gold-2);
+    transform:rotate(45deg);
+    box-shadow:0 0 12px var(--gold-2);
+  }
+
+  /* Countdown */
+  .countdown{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:10px;
+    margin:30px 0;
+    animation:fadeInUp 1.4s ease 0.3s both;
+  }
+  .cd-card{
+    background:linear-gradient(145deg, rgba(232,199,112,0.08), rgba(232,199,112,0.02));
+    border:1px solid var(--glass-border);
+    border-radius:16px;
+    padding:18px 6px;
+    text-align:center;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    position:relative;
+    overflow:hidden;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .cd-card::before{
+    content:"";
+    position:absolute;
+    top:0;left:-100%;
+    width:100%;height:100%;
+    background:linear-gradient(90deg, transparent, rgba(247,231,161,0.15), transparent);
+    animation:sweep 3s ease-in-out infinite;
+  }
+  @keyframes sweep{
+    0%,100%{left:-100%}
+    50%{left:100%}
+  }
+  .cd-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 30px rgba(201,162,74,0.2);
+  }
+  .cd-num{
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(28px, 7vw, 42px);
+    font-weight:600;
+    color:var(--gold-1);
+    line-height:1;
+    text-shadow:0 0 20px rgba(247,231,161,0.4);
+  }
+  .cd-label{
+    font-family:'Inter',sans-serif;
+    font-size:10px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-top:8px;
+  }
+
+  /* Sections */
+  section.block{
+    margin:50px 0;
+    animation:fadeInUp 1s ease both;
+  }
+  .section-title{
+    text-align:center;
+    font-family:'Great Vibes', cursive;
+    font-size:clamp(32px, 7vw, 44px);
+    color:var(--gold-2);
+    margin-bottom:24px;
+    text-shadow:0 0 20px rgba(232,199,112,0.2);
+  }
+
+  /* Ayah card */
+  .ayah-card{
+    background:linear-gradient(145deg, rgba(232,199,112,0.06), rgba(232,199,112,0.01));
+    border:1px solid var(--glass-border);
+    border-radius:24px;
+    padding:32px 24px;
+    text-align:center;
+    position:relative;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+  }
+  .ayah-card::before, .ayah-card::after{
+    content:"❦";
+    position:absolute;
+    color:var(--gold-3);
+    font-size:24px;
+    opacity:0.6;
+  }
+  .ayah-card::before{top:12px;left:20px}
+  .ayah-card::after{bottom:12px;right:20px}
+  .ayah-arabic{
+    font-family:'Amiri', serif;
+    font-size:clamp(20px, 4.5vw, 26px);
+    line-height:2.2;
+    color:var(--gold-1);
+    direction:rtl;
+    margin-bottom:20px;
+    text-shadow:0 0 10px rgba(247,231,161,0.15);
+  }
+  .ayah-translation{
+    font-size:17px;
+    color:var(--text);
+    font-style:italic;
+    line-height:1.8;
+    margin-bottom:16px;
+    padding:0 8px;
+  }
+  .ayah-source{
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+    letter-spacing:1.5px;
+    color:var(--gold-3);
+    text-transform:uppercase;
+    margin-top:14px;
+  }
+  .ayah-source a{
+    color:var(--gold-2);
+    text-decoration:none;
+    border-bottom:1px dotted var(--gold-3);
+  }
+
+  /* Details */
+  .details{
+    display:grid;
+    gap:14px;
+  }
+  .detail-item{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:18px 20px;
+    background:var(--glass);
+    border:1px solid var(--glass-border);
+    border-radius:16px;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    transition:transform 0.3s ease, background 0.3s ease;
+  }
+  .detail-item:hover{
+    transform:translateX(4px);
+    background:rgba(232,199,112,0.08);
+  }
+  .detail-icon{
+    width:46px;height:46px;
+    flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg, var(--gold-3), var(--gold-4));
+    border-radius:12px;
+    font-size:22px;
+    box-shadow:0 4px 14px rgba(201,162,74,0.3);
+  }
+  .detail-text .t-label{
+    font-family:'Inter',sans-serif;
+    font-size:10px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--gold-3);
+    margin-bottom:2px;
+  }
+  .detail-text .t-value{
+    font-size:18px;
+    color:var(--text);
+    font-weight:500;
+  }
+  .detail-text .t-sub{
+    font-size:14px;
+    color:var(--muted);
+    margin-top:2px;
+  }
+
+  /* Buttons */
+  .btn-group{
+    display:grid;
+    gap:12px;
+    margin-top:30px;
+  }
+  .btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:16px 22px;
+    border-radius:14px;
+    font-family:'Inter',sans-serif;
+    font-size:14px;
+    font-weight:500;
+    letter-spacing:1px;
+    text-decoration:none;
+    cursor:pointer;
+    border:none;
+    transition:all 0.3s ease;
+    position:relative;
+    overflow:hidden;
+  }
+  .btn-primary{
+    background:linear-gradient(135deg, var(--gold-2), var(--gold-3));
+    color:#1a0f00;
+    box-shadow:0 8px 24px rgba(201,162,74,0.35);
+  }
+  .btn-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 12px 32px rgba(201,162,74,0.5);
+  }
+  .btn-primary::after{
+    content:"";
+    position:absolute;
+    top:0;left:-100%;
+    width:100%;height:100%;
+    background:linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition:left 0.6s ease;
+  }
+  .btn-primary:hover::after{left:100%}
+
+  .btn-secondary{
+    background:transparent;
+    color:var(--gold-1);
+    border:1px solid var(--gold-3);
+  }
+  .btn-secondary:hover{
+    background:rgba(232,199,112,0.1);
+    transform:translateY(-2px);
+  }
+
+  /* Music toggle */
+  .music-toggle{
+    position:fixed;
+    bottom:24px;right:24px;
+    width:56px;height:56px;
+    border-radius:50%;
+    background:linear-gradient(135deg, var(--gold-2), var(--gold-4));
+    border:none;
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 8px 24px rgba(201,162,74,0.4);
+    z-index:100;
+    transition:transform 0.3s ease;
+    color:#1a0f00;
+    font-size:22px;
+  }
+  .music-toggle:hover{transform:scale(1.1)}
+  .music-toggle.playing{animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{
+    0%,100%{box-shadow:0 8px 24px rgba(201,162,74,0.4), 0 0 0 0 rgba(232,199,112,0.5)}
+    50%{box-shadow:0 8px 24px rgba(201,162,74,0.4), 0 0 0 16px rgba(232,199,112,0)}
+  }
+
+  /* Footer */
+  footer{
+    text-align:center;
+    margin-top:60px;
+    padding:30px 20px;
+    color:var(--muted);
+    font-size:14px;
+  }
+  footer .heart{
+    color:var(--gold-2);
+    display:inline-block;
+    animation:beat 1.5s ease-in-out infinite;
+  }
+  @keyframes beat{
+    0%,100%{transform:scale(1)}
+    50%{transform:scale(1.2)}
+  }
+
+  /* Animations */
+  @keyframes fadeIn{
+    from{opacity:0}
+    to{opacity:1}
+  }
+  @keyframes fadeInUp{
+    from{opacity:0;transform:translateY(30px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+  .reveal{opacity:0;transform:translateY(30px);transition:all 1s ease}
+  .reveal.visible{opacity:1;transform:translateY(0)}
+
+  /* Responsive */
+  @media (max-width:480px){
+    .wrap{padding:16px 14px 80px}
+    .ayah-card{padding:24px 16px}
+    .detail-item{padding:14px 14px;gap:12px}
+    .detail-icon{width:40px;height:40px;font-size:18px}
+    .music-toggle{width:50px;height:50px;bottom:18px;right:18px;font-size:20px}
+    .cd-card{padding:14px 4px}
+  }
+</style>
+</head>
+<body>
+
+<!-- Particles -->
+<div class="particles" id="particles"></div>
+
+<div class="wrap">
+
+  <div class="ornament">✦ ❦ ✦</div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="label">To'yga taklif etamiz</div>
+    <div class="names">
+      Abdulhay
+      <span class="amp">&</span>
+      Durdonaxon
+    </div>
+    <p class="invite">Bizning baxtimizga sherik bo'ling</p>
+
+    <div class="divider">
+      <span class="line"></span>
+      <span class="diamond"></span>
+      <span class="line"></span>
+    </div>
+  </header>
+
+  <!-- COUNTDOWN -->
+  <div class="countdown" id="countdown">
+    <div class="cd-card"><div class="cd-num" id="cd-days">00</div><div class="cd-label">Kun</div></div>
+    <div class="cd-card"><div class="cd-num" id="cd-hours">00</div><div class="cd-label">Soat</div></div>
+    <div class="cd-card"><div class="cd-num" id="cd-mins">00</div><div class="cd-label">Daqiqa</div></div>
+    <div class="cd-card"><div class="cd-num" id="cd-secs">00</div><div class="cd-label">Soniya</div></div>
+  </div>
+
+  <!-- AYAH -->
+  <section class="block reveal">
+    <h2 class="section-title">Muqaddas Oyat</h2>
+    <div class="ayah-card">
+      <div class="ayah-arabic">وَمِنۡ ءَايَٰتِهِۦٓ أَنۡ خَلَقَ لَكُم مِّنۡ أَنفُسِكُمۡ أَزۡوَٰجٗا لِّتَسۡكُنُوٓاْ إِلَيۡهَا وَجَعَلَ بَيۡنَكُم مَّوَدَّةٗ وَرَحۡمَةًۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّقَوۡمٖ يَتَفَكَّرُونَ</div>
+      <p class="ayah-translation">Va sizlarga sokinlik topishingiz uchun o'zingizdan juftlar yaratganligi va oralaringizda sevgi va rahmatni solib qo'ygani (ham) Uning oyat-belgilaridandir. Albatta, bunda tafakkur qiladigan qavmlar uchun oyat-belgilar bordir.</p>
+      <div class="ayah-source">
+        Qur'oni Karim — Rum surasi, 21-oyat<br>
+        Tarjima: <em>Muhammad Sodiq Muhammad Yusuf</em><br>
+        <a href="https://quranenc.com/uz/browse/uzbek_sadiq/30/21" target="_blank" rel="noopener">quranenc.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAILS -->
+  <section class="block reveal">
+    <h2 class="section-title">Taklif Tafsilotlari</h2>
+    <div class="details">
+      <div class="detail-item">
+        <div class="detail-icon">📅</div>
+        <div class="detail-text">
+          <div class="t-label">Sana</div>
+          <div class="t-value">11-iyul, 2026-yil</div>
+          <div class="t-sub">Shanba</div>
+        </div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-icon">🕖</div>
+        <div class="detail-text">
+          <div class="t-label">Boshlanish vaqti</div>
+          <div class="t-value">Soat 19:00 da</div>
+          <div class="t-sub">Kechki marosim</div>
+        </div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-icon">📍</div>
+        <div class="detail-text">
+          <div class="t-label">Manzil</div>
+          <div class="t-value">«Baxtsaroy» to'yxonasi</div>
+          <div class="t-sub">Farg'ona viloyati, Dang'ara tumani, Mulkobod MFY</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <a class="btn btn-primary" href="https://www.google.com/maps?q=40.670366,70.926277" target="_blank" rel="noopener">
+        📍 Manzilni xaritada ochish
+      </a>
+      <button class="btn btn-secondary" id="btn-calendar">
+        📅 Kalendarga qo'shish (.ics)
+      </button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Sizni kutib qolamiz <span class="heart">❤</span></p>
+    <p style="margin-top:8px;font-size:12px;opacity:0.6">Abdulhay & Durdonaxon · 2026</p>
+  </footer>
+
+</div>
+
+<!-- Music toggle -->
+<button class="music-toggle" id="music-toggle" aria-label="Musiqa">
+  <span id="music-icon">🎵</span>
+</button>
+
+<!-- Background music (replace src with your own music file for production) -->
+<audio id="bg-music" loop preload="none">
+  <!-- 
+    O'z musiqangizni qo'shish uchun quyidagi qatorni o'zgartiring:
+    <source src="music.mp3" type="audio/mpeg">
+    Yoki to'g'ridan-to'g'ri:
+    <source src="https://example.com/your-song.mp3" type="audio/mpeg">
+  -->
+  <source src="data:audio/mpeg;base64,//" type="audio/mpeg">
+</audio>
+
+<script>
+  /* ===== Particles ===== */
+  (function(){
+    const container = document.getElementById('particles');
+    const count = window.innerWidth < 600 ? 18 : 35;
+    for(let i=0;i<count;i++){
+      const p = document.createElement('div');
+      p.className = 'particle';
+      p.style.left = Math.random()*100 + '%';
+      p.style.animationDuration = (8 + Math.random()*12) + 's';
+      p.style.animationDelay = (Math.random()*10) + 's';
+      const size = 2 + Math.random()*4;
+      p.style.width = size+'px';
+      p.style.height = size+'px';
+      container.appendChild(p);
+    }
+  })();
+
+  /* ===== Countdown ===== */
+  const weddingDate = new Date('2026-07-11T19:00:00+05:00').getTime(); // Uzbekistan time
+  const $d = document.getElementById('cd-days');
+  const $h = document.getElementById('cd-hours');
+  const $m = document.getElementById('cd-mins');
+  const $s = document.getElementById('cd-secs');
+
+  function pad(n){return String(n).padStart(2,'0')}
+
+  function tick(){
+    const now = Date.now();
+    let diff = weddingDate - now;
+    if(diff < 0) diff = 0;
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    const mins = Math.floor((diff % 3600000) / 60000);
+    const secs = Math.floor((diff % 60000) / 1000);
+    $d.textContent = pad(days);
+    $h.textContent = pad(hours);
+    $m.textContent = pad(mins);
+    $s.textContent = pad(secs);
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  /* ===== Reveal on scroll ===== */
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, {threshold:0.15});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  /* ===== Music toggle ===== */
+  const audio = document.getElementById('bg-music');
+  const toggle = document.getElementById('music-toggle');
+  const icon = document.getElementById('music-icon');
+  let playing = false;
+
+  toggle.addEventListener('click', async ()=>{
+    try{
+      if(playing){
+        audio.pause();
+        icon.textContent = '🎵';
+        toggle.classList.remove('playing');
+      } else {
+        audio.volume = 0.5;
+        await audio.play();
+        icon.textContent = '🎶';
+        toggle.classList.add('playing');
+      }
+      playing = !playing;
+    } catch(err){
+      alert("Iltimos, musiqa faylini qo'shing (music.mp3)");
+    }
+  });
+
+  /* ===== Calendar .ics ===== */
+  document.getElementById('btn-calendar').addEventListener('click', ()=>{
+    // 2026-07-11 19:00 Uzbekistan (UTC+5) -> UTC 14:00
+    // Duration: 5 hours
+    const ics = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//Abdulhay & Durdonaxon//Wedding//UZ',
+      'CALSCALE:GREGORIAN',
+      'METHOD:PUBLISH',
+      'BEGIN:VEVENT',
+      'UID:abdulhay-durdonaxon-20260711@wedding',
+      'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g,'').split('.')[0]+'Z',
+      'DTSTART:20260711T140000Z',
+      'DTEND:20260711T190000Z',
+      'SUMMARY:Abdulhay & Durdonaxon — To\'y marosimi',
+      'DESCRIPTION:Sizni Abdulhay va Durdonaxonning to\'y marosimiga taklif etamiz!',
+      'LOCATION:Baxtsaroy to\'yxonasi\\, Farg\'ona viloyati\\, Dang\'ara tumani\\, Mulkobod MFY',
+      'GEO:40.670366;70.926277',
+      'URL:https://www.google.com/maps?q=40.670366,70.926277',
+      'END:VEVENT',
+      'END:VCALENDAR'
+    ].join('\r\n');
+
+    const blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Abdulhay-Durdonaxon-Toy.ics';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+</script>
+
+</body>
+</html>
